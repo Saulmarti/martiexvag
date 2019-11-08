@@ -4,6 +4,7 @@ C:\Windows\System32\drivers\etc
 Se deberá añadir:
 192.168.33.10 www.martiex.com
 
+Comprobar que el enlace http://www.martiex.com funciona y se muestran los contenidos saulmarti.html y index.php
 
 
 

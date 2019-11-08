@@ -1,0 +1,11 @@
+Primero ejecutaríamos el comando para rebajar el peso:
+sudo apt-get clean
+
+Realizariamos un vagrant package con
+vagrant package --output martiex.box
+
+Dónde quisieramos instalar el box primero lo tenemos que añadir a la lista de vagrant con :
+vagrant box add martibox martiex.box
+
+Sólo falta iniciar la máquina con el box:
+vagrant ini martibox
